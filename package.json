@@ -11,8 +11,10 @@
     "react-dom": "^19.2.4",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+    "homepage": "https://mjeed15.github.io/calculator"
   },
   "scripts": {
+<<<<<<< HEAD
   "start": "react-scripts start",
   "build": "react-scripts build",
   "test": "react-scripts test",
@@ -21,6 +23,15 @@
   "deploy": "gh-pages -d build"
 },
   "homepage": "https://mjeed15.github.io/calculator",
+=======
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+>>>>>>> f828008d0543f4d2fd67fdd82d699544e9abb785
   "eslintConfig": {
     "extends": [
       "react-app",
